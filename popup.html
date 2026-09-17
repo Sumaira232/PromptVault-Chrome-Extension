@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>PromptVault</title>
+
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>PromptVault 🚀</h1>
+
+        <p class="subtitle">
+            Your AI Prompt Library
+        </p>
+
+        <!-- Prompt Form -->
+
+        <form id="promptForm">
+
+            <input
+                type="text"
+                id="promptTitle"
+                placeholder="Prompt Title"
+                required
+            >
+
+            <textarea
+                id="promptBody"
+                placeholder="Write your prompt here..."
+                required
+            ></textarea>
+
+            <button type="submit" id="saveBtn">
+                Save Prompt
+            </button>
+
+        </form>
+
+        <hr>
+
+        <h2>Saved Prompts</h2>
+
+        <div id="promptList"></div>
+
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>

@@ -2,4 +2,4 @@
 
 ## 📸 Preview
 
-![PromptVault Preview](Screenshot 2026-09-17 180246)
+![PromptVault Preview](Screenshot 2026-09-17 180246.png)
